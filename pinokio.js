@@ -6,7 +6,7 @@ module.exports = {
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installing = info.running("install.js")
-    let installed = info.exists("app/env")
+    let installed = info.exists("app/.venv")
     let running = info.running("start.js")
     let updating = info.running("update.js")
     let resetting = info.running("reset.js")

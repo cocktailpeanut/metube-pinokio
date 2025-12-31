@@ -16,6 +16,12 @@ module.exports = {
       }
     },
     {
+      method: "fs.rm",
+      params: {
+        path: "app/ui/pnpm-lock.yaml"
+      }
+    },
+    {
       method: "shell.run",
       params: {
         path: "app/ui",

@@ -11,6 +11,13 @@ module.exports = {
     {
       method: "fs.write",
       params: {
+        path: "downloads/.gitkeep",
+        text: ""
+      }
+    },
+    {
+      method: "fs.write",
+      params: {
         path: "app/ui/.npmrc",
         text: "node-linker=hoisted"
       }

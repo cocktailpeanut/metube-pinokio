@@ -9,6 +9,13 @@ module.exports = {
       }
     },
     {
+      method: "fs.write",
+      params: {
+        path: "app/ui/.npmrc",
+        text: "shamefully-hoist=true"
+      }
+    },
+    {
       method: "shell.run",
       params: {
         path: "app/ui",

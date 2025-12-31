@@ -12,7 +12,7 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        venv: "env",
+        venv: ".venv",
         path: "app",
         message: [
           "uv sync"

@@ -3,7 +3,7 @@ module.exports = {
     {
       method: "fs.rm",
       params: {
-        path: "app/env"
+        path: "app/.venv"
       }
     },
     {
@@ -15,7 +15,7 @@ module.exports = {
     {
       method: "fs.rm",
       params: {
-        path: "app/.venv"
+        path: "app/ui/node_modules"
       }
     }
   ]

@@ -6,6 +6,7 @@ module.exports = async (kernel) => {
       {
         method: "shell.run",
         params: {
+          venv: ".venv",
           path: "app",
           env: {
             "HOST": "127.0.0.1",
@@ -13,7 +14,7 @@ module.exports = async (kernel) => {
             "DOWNLOAD_DIR": "../downloads"
           },
           message: [
-            "uv run main.py"
+            "python app/main.py"
           ],
           on: [{
             event: "/(http:\\/\\/[0-9.:]+)/",

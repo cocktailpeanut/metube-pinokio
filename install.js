@@ -12,7 +12,7 @@ module.exports = {
       method: "fs.write",
       params: {
         path: "app/ui/.npmrc",
-        text: "shamefully-hoist=true"
+        text: "node-linker=hoisted"
       }
     },
     {

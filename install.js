@@ -13,8 +13,8 @@ module.exports = {
       params: {
         path: "app/ui",
         message: [
-          "pnpm install",
-          "pnpm run build"
+          "npm install",
+          "npm run build"
         ]
       }
     },

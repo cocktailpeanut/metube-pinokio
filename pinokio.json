@@ -1,0 +1,7 @@
+{
+  "version": "5.0",
+  "title": "MeTube",
+  "description": "Web GUI for yt-dlp with playlist support. Download videos from YouTube and dozens of other sites.",
+  "icon": "icon.png",
+  "uri": "https://github.com/alexta69/metube"
+}

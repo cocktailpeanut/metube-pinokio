@@ -14,7 +14,7 @@ module.exports = async (kernel) => {
             "DOWNLOAD_DIR": "../downloads"
           },
           message: [
-            "uv run python3 app/main.py"
+            "uv run python3 main.py"
           ],
           on: [{
             event: "/(http:\\/\\/[0-9.:]+)/",
